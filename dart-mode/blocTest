@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: blocTest
+# uuid:
+# key: blocTest
+# condition: t
+# --
+blockTest(
+    '$1',
+    build: () => ${2:Bloc}($3),
+    act: (bloc) => $4,
+    expect: [$5],
+    verify: ($2 bloc) => $0,
+);

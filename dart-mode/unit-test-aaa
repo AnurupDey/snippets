@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: unit-test-aaa
+# key: aaa
+# condition: t
+# --
+test(
+    '$1',
+    () async {
+        //arrange
+        $0
+        //act
+
+        //assert
+
+    },
+);
