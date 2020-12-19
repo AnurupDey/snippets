@@ -4,7 +4,7 @@
 # key: blocTest
 # condition: t
 # --
-blockTest(
+blocTest(
     '$1',
     build: () => ${2:Bloc}($3),
     act: (bloc) => $4,
